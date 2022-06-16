@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 100px;
+  background-image: url('canva-clean.jpg');
+  background-size: cover;
+  text-align: center;
+  
+  color:black;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color:grey;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.content {
+  height: 120%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.content p {
+  padding: 10px;
+  text-align: center;
+  
+  color: aliceblue;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+    </style>
+</head>
+<body>
+    
+  <div class="header">
+  
+    <h1>My Website</h1>
+    <p>A <b>responsive</b> website created for CC 106.</p>
+  </div>
+ 
+  <div class="navbar">
+    <a href="home.html" >Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="#" class="active">About us</a>
+    <a href="sign up.html" class="right">Sign Up</a>
+  </div>
+  <div class="content">
+    <p>This page is about My personal backgroud and information.</p>
+    <p> Also it can be a place where I upload my future projects so that future empoyer can see my potential easily. </p>
+  
+
+ 
+  </div>
+
+  
+</body>
+</html>
